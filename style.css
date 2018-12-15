@@ -1,0 +1,22 @@
+body{
+    background-color: lightgray;
+    font-family: monospace;
+    font-size: 12px;
+}
+
+h2{
+    background-color: darkgrey;
+    color: aliceblue;
+}
+
+ol {
+    color: blue;
+}
+
+.jumbotron{
+    background-color: yellow!important;
+    background-image: url(https://scontent.fcgk8-2.fna.fbcdn.net/v/t1.0-9/41838951_10215067192585839_2745677493166931968_n.jpg?_nc_cat=102&_nc_eui2=AeEeYKu4WbzNorUP16qlJwtEEcVZvlrteRcTw4gw0eF5lDahqxvfL6g6nBy4NvDPylIFjAUO_bWN1jQmrwt3L6AcK_oz4UQF7mGuQXERvwFF1w&_nc_ht=scontent.fcgk8-2.fna&oh=b8de27a7d6e3b8a545e34656951667f3&oe=5CB17AAE);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: aliceblue
+}

@@ -3,17 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <title>Belajar Html Day 2</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
-<body>    
-    <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Contact</li>
-    </ul>
+<body> 
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="#">PT Mitra Integrasi Informatika</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#videos" >Video</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+             <li class="nav-item">
+              <a class="nav-link" href="#about">About </a>
+            </li>
+          </ul>
+          <form class="form-inline mt-2 mt-md-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+   <div class="jumbotron">
+      <h1 class="display-4">Hello, Friends!</h1>
+      <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+      <hr class="my-4">
+      <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+      <a class="btn btn-primary btn-lg" href="http://courses.mediocademy.com" target="_blank" role="button">Learn more</a>
+    </div>   
+    <br/>
     
     <h1>Belajar Html Day 2 using Brackets</h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic iusto dignissimos, tempora modi optio. Reiciendis atque nam tempore ipsam, dicta, earum aut fugiat rem, architecto error fuga beatae! Nulla, maxime!        
     </p>
+    <br/>
+    <div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="img/4k-wallpaper-android-wallpaper-art-325044.jpg" width="286" height="180" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+    <br/>
     
     <h2>Belajar Html Day 2 using Brackets and git Branch</h2>
     
@@ -26,11 +67,13 @@
     </ol>
     
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error et deleniti optio unde vero ea facilis doloremque id qui. Facere veritatis, eos et, labore recusandae quas alias esse eligendi dicta!</p>
+    <br/>
     
-    <h2>About</h2>
+    <h2 id="about">About</h2>
     
     <img src="https://graph.facebook.com/1611472141/picture?height=200" alt="my picture profile in facebook">
     <h3>To get facebook id you can visit this link https://findmyfbid.in</h3>
+    <br/>
     
     <h2>Creating table</h2>
     <p>What we learn about?</p>    
@@ -46,8 +89,12 @@
             <td>not yet</td>
         </tr>
     </table>
-    
-    <h2>Insert videos</h2>
+    <br/>
+    <h2 id="videos">Insert videos</h2>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/IYxXaKpOp7Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>
